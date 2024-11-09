@@ -1,29 +1,38 @@
 #include <stdio.h>
 
 int main() {
-    printf("Desafio Super trunfo ");
 
-    int cidade , codigo, PIB,turisticos;
-    float populacao;
-    float area;
+    printf("**CARTA 1**\n");
+    printf("\n");
 
-    printf("Digite a cidade: \n");
-    scanf("%d", &cidade);
+    char estado[15] = "";
+    char nome[20] = "";
+    char codigo ;
+    int populacao = 0;
+    float area = 0.0;
+    float pib = 0;
+    int quantidade = 0;
+
+    printf("Digite o nome do Estado: \n");
+    scanf("%s", &estado);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &nome);
 
     printf("Digite o código da carta \n");
-    scanf ("%d", &codigo);
+    scanf ("%s", &codigo);
 
     printf("Digite a população: \n");
-    scanf("%f", &populacao);
+    scanf("%d", &populacao);
 
     printf("Digite a área: \n");
     scanf("%f", &area);
 
     printf("Digite o PIB: \n");
-    scanf("%d", &PIB);
+    scanf("%f", &pib);
 
-    printf("Digite os pontos turísticos: \n");
-    scanf("%d", &turisticos);
+    printf("Digite a quantidade de pontos turísticos: \n");
+    scanf("%d", &quantidade);
 
 
 
