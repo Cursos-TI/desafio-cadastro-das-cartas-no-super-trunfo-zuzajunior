@@ -1,9 +1,6 @@
 #include <stdio.h>
 
-int main() {
-
-    printf("**CARTA 1**\n");
-    printf("\n");
+int main(){    
 
     char estado[15] = "";
     char nome[20] = "";
@@ -12,6 +9,9 @@ int main() {
     float area = 0.0;
     float pib = 0;
     int quantidade = 0;
+
+    printf("**CARTA 1**\n");
+    printf("\n");
 
     printf("Digite o nome do Estado: \n");
     scanf("%s", &estado);
@@ -35,6 +35,50 @@ int main() {
     scanf("%d", &quantidade);
 
 
+    printf("Estado: %s\n", estado);
+    printf("Cidade: %s\n", nome);
+    printf("Código: %s\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Àrea: %f\n", area);
+    printf("Pib: %f", pib);
+    printf("Pontos turísticos: %d\n", quantidade);
+
+
+    printf("**CARTA 2**\n");
+    printf("\n");
+
+    printf("Digite o nome do Estado: \n");
+    scanf("%s", &estado);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &nome);
+
+    printf("Digite o código da carta \n");
+    scanf ("%s", &codigo);
+
+    printf("Digite a população: \n");
+    scanf("%d", &populacao);
+
+    printf("Digite a área: \n");
+    scanf("%f", &area);
+
+    printf("Digite o PIB: \n");
+    scanf("%f", &pib);
+
+    printf("Digite a quantidade de pontos turísticos: \n");
+    scanf("%d", &quantidade);
+
+
+    printf("Estado: %s\n", estado);
+    printf("Cidade: %s\n", nome);
+    printf("Código: %s\n", codigo);
+    printf("População: %d\n", populacao);
+    printf("Àrea: %f\n", area);
+    printf("Pib: %f\n", pib);
+    printf("Pontos turísticos: %d\n", quantidade);
+
+
+
 
 
 
@@ -50,4 +94,6 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     return 0;
+
+
 }
